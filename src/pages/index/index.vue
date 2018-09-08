@@ -27,8 +27,10 @@
         </ul>
       </div>
     </i-drawer>
-    <Calendar :value="value" @next="next" @prev="prev" :events="events" @select="select" ref="calendar" @selectMonth="selectMonth"
-      @selectYear="selectYear" />
+    <div>
+      <Calendar :value="value" @next="next" @prev="prev" :events="events" @select="select" ref="calendar" @selectMonth="selectMonth"
+      @selectYear="selectYear"/>
+    </div>
     <div @click="toPage('addPlace')" class="addPlace">
       <i-icon type="add" size="68" color="#fff" />
     </div>
