@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/addPlace/main",
+    "pages/place/main",
+    "pages/setting/main",
+    "pages/receive/main",
+    "pages/workTime/main",
+    "pages/placeDetail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
